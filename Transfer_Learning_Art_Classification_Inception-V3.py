@@ -79,6 +79,8 @@ path_scripts = glob.glob(r'C:\**\Scripts/', recursive=True)
 path_scripts = str(path_scripts[0])
 path_scripts = path_scripts.replace('\\', '/')
 
+train_labels_path = parent_dir + 'Labels/Classification_labels.xlsx'
+
 ### Setting up all the parameters for the training, processing of data and produced files management ###
 
 # import the labels of the dataset
